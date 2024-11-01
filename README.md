@@ -1,3 +1,18 @@
+## Links
+- [GitHub Repository](https://github.com/Ayat24/e-commerce-product)
+- [Vercel Demo](https://vercel.com/ayat-mahmouds-projects/e-commerce-product/CKKLmVNZ7fxVPuNf3mwYjXj2iJvZ)
+
+## Project Description
+This is a simple e-commerce project that uses the Fake Store API to display products. It is developed using React and features a responsive design and clean user experience.
+
+## Installation
+Clone the repository and navigate into the project directory:
+```bash
+git clone https://github.com/Ayat24/e-commerce-product.git
+cd e-commerce-product
+npm install
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
