@@ -1,38 +1,172 @@
-.App {
+.navbar {
+  background-color: white; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 2.5rem !important;
+  color: #514f4f !important; 
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif; 
+  color: #555; 
+  margin-right: 20px; 
+}
+
+.nav-link:hover {
+  color: #262525 !important; 
+}
+
+.navbar-toggler {
+  border: none; 
+}
+
+.home {
+  background-color: #e7e4e4;
+  height: 100vh;
+  background-size: 100% 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .content-home {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content-home h4 {
+  font-size: 3rem;
+  margin: 20px;
+  font-weight: bold;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content-home p {
+  font-size: 1.2rem;
+  line-height: 1.8; 
+  color: #555; 
+  margin: 10px 0; 
+  padding: 0 20px; 
+  max-width: 600px; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content-home .btn {
+  background-color: #626060; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; 
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.content-home .btn:hover {
+  background-color: #000; 
+  color: #fff; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about {
+  background-color: #696868; 
+ 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 30vh; 
+}
+
+.about .content-text {
+  text-align: center; 
+  padding: 20px; 
+}
+
+.about .content-text h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 15px; 
+}
+
+.about .content-text p {
+  font-size: 0.8rem; 
+  line-height: 1.5; 
+  color: #fffefe; 
+}
+
+.products {
+  background-color: #f9f9f9; 
+  padding: 20px; 
+}
+.products h2{
+  font-family: "Pacifico", cursive;
+  font-size: 2.5rem;
+  margin: 40px;
+}
+.loading, .error {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px;
+  color: #555;
+}
+
+.loading {
+  color: #007bff; 
+}
+
+.error {
+  color: red; 
+}
+
+.row {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.product-card {
+  background: white; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  margin: 10px; 
+  padding: 30px; 
+  text-align: center; 
+  font-size: 0.8rem;
+  height: 500px;
+  
+}
+.product-card h3{
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.product-image {
+  width: 60%; 
+  
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #d9534f; 
+}
+.btn-custom {
+  background-color: #464444; 
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px; 
+  
+}
+
+.btn-custom:hover {
+  background-color: #6f6d6c; 
 }
