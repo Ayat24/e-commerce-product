@@ -5,8 +5,8 @@
 
 .navbar-brand {
   font-family: "Pacifico", cursive;
-  font-size: 2.5rem !important;
-  color: #514f4f !important; 
+  font-size: 2.5rem;
+  color: #514f4f; 
 }
 
 .nav-link {
@@ -16,7 +16,7 @@
 }
 
 .nav-link:hover {
-  color: #262525 !important; 
+  color: #262525; 
 }
 
 .navbar-toggler {
@@ -25,20 +25,12 @@
 
 .home {
   background-color: #e7e4e4;
-<<<<<<< HEAD
-  height: 100vh; 
-  display: flex;
-=======
   height: 100vh;
-  background-size: 100% 100%;
-  display: flex;
-  position: relative;
->>>>>>> e6d183690a7a705e1b3f4436e31a874b6e383256
+   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-<<<<<<< HEAD
 .home .container {
   display: flex;
   justify-content: center;
@@ -48,14 +40,6 @@
 
 .content-home {
   text-align: center; 
-=======
-.home .content-home {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
->>>>>>> e6d183690a7a705e1b3f4436e31a874b6e383256
 }
 
 .content-home h4 {
@@ -91,7 +75,7 @@
   color: #fff; 
 }
 
-<<<<<<< HEAD
+/* Media Queries */
 @media (max-width: 768px) {
   .content-home h4 {
     font-size: 2rem; 
@@ -103,13 +87,9 @@
 }
 
 
+
 .about {
   background-color: #696868; 
-=======
-.about {
-  background-color: #696868; 
- 
->>>>>>> e6d183690a7a705e1b3f4436e31a874b6e383256
   display: flex; 
   justify-content: center; 
   align-items: center; 
@@ -133,7 +113,7 @@
   line-height: 1.5; 
   color: #fffefe; 
 }
-<<<<<<< HEAD
+
 .container {
   width: 90%;
   margin: auto;
@@ -146,8 +126,8 @@
 
 .products h2 {
   font-family: "Pacifico", cursive;
-  font-size: 1.5rem;
-  margin: 40px 0;
+  font-size: 2.5rem;
+  margin: 40px;
   text-align: center;
 }
 
@@ -171,7 +151,7 @@
 }
 
 .product-image {
-  max-width: 50%;
+  max-width: 60%;
   height: auto;
   margin-bottom: 10px;
 }
@@ -198,21 +178,7 @@
   background-color: #6f6d6c;
 }
 
-.loading,
-.error {
-=======
-
-.products {
-  background-color: #f9f9f9; 
-  padding: 20px; 
-}
-.products h2{
-  font-family: "Pacifico", cursive;
-  font-size: 2.5rem;
-  margin: 40px;
-}
 .loading, .error {
->>>>>>> e6d183690a7a705e1b3f4436e31a874b6e383256
   text-align: center;
   font-size: 1.5rem;
   margin: 20px;
@@ -220,13 +186,6 @@
 }
 
 .loading {
-<<<<<<< HEAD
-  color: #007bff;
-}
-
-.error {
-  color: red;
-=======
   color: #007bff; 
 }
 
@@ -234,49 +193,16 @@
   color: red; 
 }
 
-.row {
-  display: flex; 
-  flex-wrap: wrap; 
-}
+@media (max-width: 768px) {
+  .content-home h4 {
+    font-size: 2rem; 
+  }
 
-.product-card {
-  background: white; 
-  border-radius: 8px; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  margin: 10px; 
-  padding: 30px; 
-  text-align: center; 
-  font-size: 0.8rem;
-  height: 500px;
-  
-}
-.product-card h3{
-  font-size: 1.1rem;
-  margin: 10px;
-}
+  .content-home p {
+    font-size: 1rem; 
+  }
 
-.product-image {
-  width: 60%; 
-  
-}
-
-.product-price {
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #d9534f; 
-}
-.btn-custom {
-  background-color: #464444; 
-  color: #fff; 
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 4px; 
-  
-}
-
-.btn-custom:hover {
-  background-color: #6f6d6c; 
->>>>>>> e6d183690a7a705e1b3f4436e31a874b6e383256
+  .product-card {
+    height: auto; 
+  }
 }
